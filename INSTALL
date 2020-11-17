@@ -1,0 +1,59 @@
+This version came from https://github.com/asbestomolesto/mindguard
+
+INSTALLATION:
+
+  It's what you would expect:
+
+>$ apt install libgtk-2.0-dev (they're needed!)
+
+>$ cd [directory where source is]
+>$ make
+>$ su
+># make install
+
+  Installation copies the MindGuard binary to /usr/local/bin
+and makes the dir /usr/local/share/MindGuard and copies the
+carriers dir (with modules) and the html documentation
+there.  You can try MindGuard out before you install it by
+typing "./mindguard" since it will recognize the carriers
+dir at ./carriers and load the modules from there.
+
+  To install without the ~120k of html docs, use this
+instead:
+
+># make install-nodocs
+
+  If you would rather install everything in your home dir,
+use this as yourself (not root):
+
+>$ make install-home
+
+  To put just the carrier modules and the html docs in your
+home dir, use:
+
+>$ make install-home-dataonly
+
+  Afterwards, to install just the program, use this as
+root:
+
+># make install-bin
+
+  Or finally, if you are Mr. Leet CLI Guy, just copy
+everything manually. The only consideration is the carrier
+dir which must be either in ~/MindGuard/,
+/usr/local/share/MindGuard/, or your current directory
+in order for MindGuard to run. However, you can work around
+this by using the -carrier_path command line command when
+running MindGuard to specify an alternate carrier dir.
+
+***********************************************************
+******* WARNING *** WARNING *** WARNING *** WARNING *******
+***********************************************************
+
+  When installing new versions of MindGuard, you will have
+to turn MindGuard off for a short period of time, during
+which you will be vulnerable to mind control. Please protect
+yourself during installation using an Aluminum Foil
+Deflector Beanie (see http://zapatopi.net/afdb/ for more
+details).
+

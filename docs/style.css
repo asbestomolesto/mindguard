@@ -1,0 +1,67 @@
+<STYLE TYPE="text/css">
+<!--
+BLAH {}
+BODY		{margin:0px; padding:0px; background:white}
+BODY,TABLE	{font-family:verdana,sans-serif; font-size:10pt}
+.margin		{margin-left:30px}
+.section	{max-width:700px; margin-right:20px; margin-top:15px; padding-bottom:15px}
+H1,H2,H3,H4	{margin-bottom:0px; margin-top:0px}
+H1		{font-weight:normal; font-size:20pt}
+H2		{font-weight:normal; font-size:16pt}
+H3		{font-weight:normal; font-size:14pt}
+H4		{font-weight:bold; font-size:10pt}
+A		{text-decoration:none; font-weight:bold}
+A:link		{color:#995555}
+A:visited	{color:#884444}
+A:hover		{color:#889999; text-decoration:underline}
+LI		{margin:0px}
+
+.photo		{float:right; font-size:7pt; margin-left:20px; margin-bottom:10px; padding:0px; background-color:#ddeeee}
+.photo P	{padding:2px; padding-top:0px; margin:0px}
+
+DIV.sidebar	{position:absolute; top:0px; left:0px; z-index:254; background-color:#ddeeee}
+.sidebar H1	{font-size:22px; text-align:center; background-color:#ccdddd; padding-top:2px; margin-top:6px}
+.sidebar H2	{font-size:10px; text-align:center; font-weight:bold; background-color:#ccdddd; padding-bottom:4px}
+.sidebar UL	{font-size:8pt; padding-left:0px; margin-left:20px; margin-top:4px; padding-bottom:20px}
+.sidebar UL UL	{margin-top:0px; font-size:7pt; list-style-type:square}
+.sidebar A:visited {color:#995555}
+.sidebar A:hover {background-color:#bb7777; color:white; text-decoration:none}
+.sidebar P	{font-size:8pt; padding:6px; margin:0px}
+
+.sidebarsmall	{width:100px}
+.sidebarindex	{width:175px}
+
+.sidebarsmall H1{font-size:12px}
+.sidebarsmall H2{font-size:10px}
+
+DIV.main	{padding-left:10px; padding-top:10px}
+.main H3	{font-weight:bold; font-family:monospace; background:#bb7777; padding-left:6px; color:white}
+.main H4	{border-bottom:1px solid black}
+.main P		{text-align:justify}
+
+.mainsmall	{border-left:solid 100px #ddeeee}
+.mainindex	{border-left:solid 175px #ddeeee}
+
+TABLE.index	{padding:0px}
+.index TD	{vertical-align:top}
+.index P	{padding-left:10px}
+TD.left		{text-align:right}
+.hr		{border-top:2px solid #ccdddd}
+
+P.smallprint	{font-size:6pt; color:#aaaaaa; border-top:1px solid #aaaaaa; margin-top:20px; padding:10px; padding-bottom:0px; margin-bottom:0px}
+.fine		{font-size:7pt}
+.warning	{background-color:red; color:white; padding:4px; font-weight:bold; border:1px solid black}
+.warning H1	{text-align:center}
+.caution	{background-color:#ffdd00; color:black; padding:4px; font-weight:bold; border:1px solid black}
+
+BODY	{scrollbar-face-color: #000000;
+	scrollbar-shadow-color: #000000;
+	scrollbar-highlight-color: #000000;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-base-color: #bb7777;
+	scrollbar-track-color: #bb7777;
+	scrollbar-arrow-color: #ffffff}
+
+//-->
+</STYLE>

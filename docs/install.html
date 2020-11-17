@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>MindGuard X: User Manual: Requirements & Installing</TITLE>
+<LINK rel="stylesheet" type="text/css" href="style.css">
+</HEAD>
+<BODY>
+
+<DIV class="sidebar sidebarsmall">
+<H1><A href="index.html">MindGuard X</A></H1>
+<H2>User Manual</H2>
+</DIV>
+
+<DIV class="main mainsmall">
+<H3>Requirements & Installing</H3>
+<DIV class="margin section">
+
+<H4>Requirements</H4>
+<DIV class="margin">
+<P>MindGuard X requires:</P>
+<UL>
+<LI>A computer with <A href="features.html#copper">aluminum circuitry</A>
+<LI>Linux or other Unix or Unix-style operating system
+<LI>X Windows
+<LI>GTK+ v1.2.x or better
+</UL>
+</DIV>
+
+<H4>Installing</H4>
+<DIV class="margin">
+<P>Compilation and installation instructions are included with the source code. However, here are some further installation instructions:</P>
+
+<A name="cd"></A>
+<P><B>Carrier Directory</B></P>
+<DIV class="margin">
+<P>The carrier modules are kept in the carrier directory. This can be located in one of three places:</P>
+
+<DIV class="margin"><TT>
+./carriers/<BR>
+~/MindGuard/carriers/<BR>
+/usr/local/share/MindGuard/carriers/
+</TT></DIV>
+
+<P>MindGuard looks in the order listed above. This allows you to have a global set of carrier modules that every user on the system has access to, sets for individual users, and sets in the current directory for testing.</P>
+
+<P>You can also specify a carrier module directory at run time using the command line option:</P>
+
+<DIV class="margin"><TT>
+-carrier_path
+</TT></DIV>
+
+</DIV>
+
+</DIV>
+</DIV>
+
+</BODY>
+</HTML>
